@@ -58,8 +58,8 @@ export default function FutureTalks(){
         },
         {
             date: "April 23",
-            speaker: "Andrzej Stasiak",
-            tittle: "University of Lausanne - Switzerland"
+            speaker: "Dimos Gkountaroulis",
+            tittle: "Baylor College of Medicine - USA"
         },
         {
             date: "May 7",
