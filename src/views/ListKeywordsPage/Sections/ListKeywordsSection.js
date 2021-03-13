@@ -55,6 +55,7 @@ export default function     ListSpeakersSection(){
     const[talkPresentation,setTalkPresentation] = useState('');
     const[talkSpeaker,setTalkSpeaker] = useState('');
     const[talkKeywords,setTalkKeywords] = useState([]);
+    const[warningNote, setWarningNote] = useState('');
 
     var month = new Array();
     month[0] = "January";
@@ -115,6 +116,7 @@ export default function     ListSpeakersSection(){
                     keywords: doc.data().keywords,
                     slides: doc.data().presentation,
                     abstract: doc.data().abstract,
+                    warning: doc.data().warning,
                 };
                 
             });
@@ -193,6 +195,7 @@ export default function     ListSpeakersSection(){
                                 setTalkKeywords(allTalks[data].keywords);
                                 setTalkSpeaker(allTalks[data].speaker); 
                                 setTalkDate(allTalks[data].date); 
+                                setWarningNote(allTalks[data].warning);
                             }}>
                                 {allTalks[data].year}</Button>
                             <Dialog
@@ -235,6 +238,7 @@ export default function     ListSpeakersSection(){
                                     <p><b>Video: </b> {talkVideo === null ? 'Not available yet.' : <a href={talkVideo} target="_blank">Click here</a>} </p>
                                     {/*Cuando una talk no tiene presentacion, talkSlides es undefined, y en otro caso string*/}
                                     {typeof(talkPresentation) == "undefined" ? null : <><p><b>Slides:</b> <a href={talkPresentation} target="_blank">Click here</a></p></>}
+                                    {typeof(warningNote) == "undefined" ? null : <><p><b>Warning: </b>{warningNote}</p></>}
                                     <p><b>Date: </b>{talkDate} </p>
                                     <p><b>Keywords: </b> {talkKeywords.join(', ')}</p>
                                     <p><b>Abstract: </b>{ReactHtmlParser (talkDescription)}</p>

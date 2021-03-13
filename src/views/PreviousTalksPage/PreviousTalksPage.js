@@ -108,6 +108,7 @@ export default function PreviousTalksPage(){
                         abstract: doc.data().abstract,
                         video: doc.data().video,
                         presentation: doc.data().presentation,
+                        warning: doc.data().warning,
                     }
                 );
                 //alert(speakerID)

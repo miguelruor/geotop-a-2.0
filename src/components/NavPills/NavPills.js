@@ -50,6 +50,7 @@ export default function NavPills(props) {
   const[talkSpeaker,setTalkSpeaker] = useState('');
   const[talkKeywords,setTalkKeywords] = useState([]);
   const[speakerID,setSpeakerID] = useState(0);
+  const[warningNote, setWarningNote] = useState('');
 
 
   const {content} = props;
@@ -161,6 +162,7 @@ export default function NavPills(props) {
                             setTalkSpeaker(talk['speaker']); 
                             setTalkDate(talk['date']); 
                             setSpeakerID(talk['speakerID']); 
+                            setWarningNote(talk['warning']);
                           }}
                       >
                           Details
@@ -201,6 +203,7 @@ export default function NavPills(props) {
                           <p><b>Title: </b>{talkTitle} </p>
                           <p><b>Video: </b> {talkVideo === null ? 'Not available yet.' : <a href={talkVideo} target="_blank">Click here</a>} </p>
                           {typeof(talkPresentation) == "undefined" ? null : <><p><b>Slides:</b> <a href={talkPresentation} target="_blank">Click here</a></p></>}
+                          {typeof(warningNote) == "undefined" ? null : <><p><b>Warning: </b>{warningNote}</p></>}
                           <p><b>Date: </b>{talkDate} </p>
                           <p><b>Keywords: </b> {talkKeywords.join(', ')}</p>
                           <p><b>Abstract: </b>{ReactHtmlParser(talkDescription)}</p>
