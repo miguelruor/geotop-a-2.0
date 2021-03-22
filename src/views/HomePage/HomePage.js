@@ -59,6 +59,7 @@ export default function HomePage(props) {
   const[talkKeywords,setTalkKeywords] = useState([]);
   const [speaker, setSpeaker] = useState('');
   const [talkDate, setDate] = useState('');
+  const[warningNote, setWarningNote] = useState('');
   const [modal, setModal] = React.useState(false);
 
   var speakerID = '';
@@ -77,6 +78,7 @@ export default function HomePage(props) {
                 setTalkVideo(doc.data().video);
                 setTalkSlides(doc.data().presentation);
                 setTalkDescription(doc.data().abstract);
+                setWarningNote(doc.data().warning);
                 const date = doc.data().date.toDate();
                 var month = new Array();
                 month[0] = "January";
@@ -187,6 +189,7 @@ export default function HomePage(props) {
                   <p><b>Video: </b> {talkVideo === null ? 'Not available yet.' : <a href={talkVideo} target="_blank">Click here</a>} </p>
                   {/*Cuando una talk no tiene presentacion, talkSlides es undefined, y en otro caso string*/}
                   {typeof(talkSlides) == "undefined" ? null : <><p><b>Slides:</b> <a href={talkSlides} target="_blank">Click here</a></p></>}
+                  {typeof(warningNote) == "undefined" ? null : <><p><b>Warning: </b>{warningNote}</p></>}
                   <p><b>Date: </b>{talkDate} </p>
                   <p><b>Keywords: </b> {talkKeywords.join(', ')}</p>
                   <p><b>Abstract: </b>{ReactHtmlParser (talkDescription)}</p>
