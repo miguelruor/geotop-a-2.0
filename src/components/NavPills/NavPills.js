@@ -30,8 +30,6 @@ import IconButton from "@material-ui/core/IconButton";
 
 import Close from "@material-ui/icons/Close";
 
-import imagenPrueba from "../../assets/img/faces/avatar.jpg";
-
 
 const useStyles = makeStyles(styles);
 
