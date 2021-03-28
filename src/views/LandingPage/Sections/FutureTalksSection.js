@@ -69,7 +69,7 @@ export default function FutureTalks(){
         {
             date: "May 21",
             speaker: "Caroline Uhler",
-            tittle: "ETH Zurich - Switzerland"
+            tittle: "MIT - USA"
         },
     ]);
 
