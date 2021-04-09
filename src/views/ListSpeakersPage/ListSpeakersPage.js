@@ -4,7 +4,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import classNames from "classnames";
 
-
 // core components
 import Header from "../../components/Header/Header.js";
 import Footer from "../../components/Footer/Footer.js";
@@ -22,8 +21,6 @@ import backgroundImageHome from '../../assets/img/images/img2.jpg';
 
 // Sections for this page
 import ListSpeakersSection from "./Sections/ListSpeakersSection";
-
-
 
 const dashboardRoutes = [];
 

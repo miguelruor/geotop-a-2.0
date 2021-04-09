@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
@@ -23,6 +23,8 @@ import SubscribeSection from "./Sections/SubscribeSection.js";
 // Background Image
 import backgroundImageHome from '../../assets/img/images/img1.jpg';
 
+import {db} from '../../ConfigFirebase';
+
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
@@ -30,6 +32,81 @@ const useStyles = makeStyles(styles);
 export default function HomePage(props) {
   const classes = useStyles();
   const { ...rest } = props;
+
+  var speakers = {};
+
+  var talks = {};
+
+  
+  const [speakers1, setSpeakers] = useState({});
+
+  const [talks1, setTalks] = useState({});
+
+
+  useEffect(async() => {
+    await db.collection('speakers').get()
+    .then(function(querySnapshot){
+        querySnapshot.forEach(async function(doc){
+            var mi = doc.data().middle_initial;
+            speakers[doc.id] = {
+                surname: doc.data().surname,
+                completeName: doc.data().name + " " + 
+                (mi != null ? mi : "") + " " + doc.data().surname,
+                middle_initial: mi,
+                name: doc.data().name,
+                institution: doc.data().place,
+                country: "",
+                state: "",
+                city: "",
+                research_interests: [""],
+                email: "",
+                homepage: "",
+                google_scholar_url: ""
+            };
+        })
+    })
+    .catch(function(error){
+        alert("Some speakers cannot load.");
+    });
+
+    await db.collection("talks").get()
+    .then(function(querySnapshot){
+        querySnapshot.forEach(async function(doc){
+            var date = doc.data().date.toDate();
+
+            talks[doc.id] = {
+                speaker_id: doc.data().speaker,
+                date: doc.data().date,
+                video: doc.data().video,
+                title: doc.data().title,
+                keywords: doc.data().keywords,
+                slides: doc.data().presentation,
+                abstract: doc.data().abstract,
+                warning: doc.data().warning,
+                season: doc.data().season,
+                numberViewsYoutube: 0,
+                numberLikesYoutube: 0,
+                numberDislikesYoutube: 0
+            };
+            
+        });
+    })
+    .catch(function(error){
+        alert("Cannot load some talk")
+    });
+
+    setSpeakers(speakers);
+    setTalks(talks);
+  });
+
+  var json1 = JSON.stringify(talks1);
+  var json2 = JSON.stringify(speakers1);
+
+  console.log(Object.keys(talks1));
+
+  //var json1 = "hola";
+  //var json2 = "adios";
+
   return (
     <div>
       <Header
@@ -62,6 +139,17 @@ export default function HomePage(props) {
         <div className={classes.container}> 
           <SubscribeSection />
         </div>
+      </div>
+
+      <div className={classes.container}>
+      <h1 style={{color:"black"}}>{"JSON platicas"}</h1>
+        <p style={{color:"black"}}>
+        {json1}
+        </p>
+      <h1 style={{color:"black"}}>{"JSON speakers"} </h1>
+        <p style={{color:"black"}}>
+        {json2}
+        </p>
       </div>
       
       <Footer />
