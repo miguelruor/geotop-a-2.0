@@ -18,7 +18,7 @@ export default function StreamingTime(){
     const classes = useStyles();
 
     const UTCMexicoCity = 360;
-    const StreamingTimeMexicoCity = 600;
+    const StreamingTimeMexicoCity = 540; //antes en 600
 
     const d = new Date();
     const localOffset = d.getTimezoneOffset();
