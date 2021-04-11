@@ -172,7 +172,7 @@ export default function     ListSpeakersSection(){
         const listItems = orderedKeywords.map(keyword =>{
             return(
             <li style={{listStyleType:'square'}}> 
-            <h5 style={{fontSize: '20px', fontStyle:'normal'}}> 
+            <h5 style={{fontSize: '15px', fontStyle:'normal'}}> 
                 {Object.keys(keyword).map(function(k) {
                     let result = '';
                     let first = true;    
