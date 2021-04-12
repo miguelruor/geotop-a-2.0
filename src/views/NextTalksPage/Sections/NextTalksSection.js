@@ -10,7 +10,7 @@ import GridItem from "../../../components/Grid/GridItem.js";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 import image1 from "../../../assets/img/images/speakers/sp047.png";
-import image2 from "../../../assets/img/images/speakers/sp046.png";
+import image2 from "../../../assets/img/images/speakers/sp048.png";
 
 const useStyles = makeStyles(styles);
 
@@ -20,9 +20,9 @@ export default function NextTalksSection(){
         {
             date: "May 7, 2021",
             speaker: "Aldo Guzmán-Sáenz",
-            title: "TBA",
-            keywords: ["TBA"],
-            abstract: "TBA",
+            title: "Applying TDA on genomic and metagenomic data.",
+            keywords: ["topological data analysis (TDA)", "persistent homology", "genomics", "metagenomics"],
+            abstract: "<p>The field of computational biology aims to gain insights from biological data. In particular, from genomic and metagenomic data through tools that for some time now include geometric and topological methods. In this talk we will mention two applications of these tools in this setting: Using persistent homology to aid machine learning classifiers in a phenotype prediction task for Parkinson's disease, and to help identify organisms present in a metagenomic sample.</p>",
         },
     ]);
 
@@ -61,7 +61,7 @@ export default function NextTalksSection(){
                     ))}
                 </GridContainer>
             </GridItem>
-            {/*<GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
+            <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
               <div style={{textAlign: "center"}}><img src={image2} className={imageClasses}/></div>
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
@@ -76,7 +76,7 @@ export default function NextTalksSection(){
                         </>
                     ))}
                 </GridContainer>
-            </GridItem>*/}
+            </GridItem>
         </GridContainer>
     );
 }
