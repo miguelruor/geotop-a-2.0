@@ -45,7 +45,7 @@ export default function NextTalksSection(){
       
     return(
         <GridContainer>
-            <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
+            {/*<GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
                 <div style={{textAlign: "center"}}><img src={image1} className={imageClasses}/></div>
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
@@ -60,7 +60,7 @@ export default function NextTalksSection(){
                         </>
                     ))}
                 </GridContainer>
-            </GridItem>
+                    </GridItem>*/}
             <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
               <div style={{textAlign: "center"}}><img src={image2} className={imageClasses}/></div>
             </GridItem>
