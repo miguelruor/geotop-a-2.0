@@ -135,7 +135,7 @@ export default function FutureTalks(){
         {
             date: "February 18",
             speaker: "Marco Tulio Angulo", 
-            tittle: "UNAM - Mexico"
+            tittle: "UNAM - México"
         },
         {
             date: "March 4",
