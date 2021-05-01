@@ -121,6 +121,59 @@ export default function FutureTalks(){
         },
     ]);
 
+    const [talks3,setTalks3] = useState([
+        {
+            date: "January 21",
+            speaker: "Tudor Ratiu",
+            tittle: "EPFL & Shanghai Jiao Tong University - China"
+        },  
+        {
+            date: "February 4",
+            speaker: "Jesús Rodríguez-Viorato",
+            tittle: "CIMAT - México"
+        },
+        {
+            date: "February 18",
+            speaker: "Marco Tulio Angulo", 
+            tittle: "UNAM - Mexico"
+        },
+        {
+            date: "March 4",
+            speaker: "Kevin Knudson",
+            tittle: "University of Florida - USA"
+        },
+        {
+            date: "March 18",
+            speaker: "Randall Kamien",
+            tittle: "University of Pennsylvania - USA"
+        },
+        {
+            date: "April 1",
+            speaker: "Carina Curto",
+            tittle: "The Pennsylvania State University - USA"
+        },
+        {
+            date: "April 22",
+            speaker: "Yang-Hui He",
+            tittle: "University of Oxford - England"
+        },
+        {
+            date: "May 6",
+            speaker: "Alexander Grosberg",
+            tittle: "NYU - USA"
+        },
+        {
+            date: "May 20",
+            speaker: "Claudia Landi",
+            tittle: "Università di Modena e Reggio Emilia - Italy"
+        },
+        {
+            date: "June 3",
+            speaker: "Xiao-Gang Wen",
+            tittle: "MIT - USA"
+        },
+    ]);
+
     return(
         <>
         <div className={classes.section} style={{paddingTop: 20}}>
@@ -219,6 +272,55 @@ export default function FutureTalks(){
                         </>
                     ))}
                 </GridContainer>
+            </div>
+        </div>
+        <div className={classes.section} style={{paddingTop: 20}}>
+            <h1 className={classes.title}>SPRING 2022 TALKS</h1>
+            <div styles={{justifyContent: 'center'}}>
+               <GridContainer>
+                  <Hidden only="xs">
+                     <GridItem sm={3} md={2}>
+                        <h3 className={classes.subtitle}>DATE</h3>
+                     </GridItem>
+                  
+                     <GridItem xs={6} sm={3} md={2}>
+                        <h3 className={classes.subtitle}>SPEAKER</h3>
+                     </GridItem>
+                     <GridItem xs={6} sm={6} md={8}>
+                        <h3 className={classes.subtitle}>INSTITUTION</h3>
+                     </GridItem>
+                  </Hidden>
+                  {talks3.map(talk => (
+                     <>
+                     <Hidden xsDown>
+                        <GridItem sm={3} md={2}>
+                              <p className={classes.nextTalks}>{talk.date}</p>
+                        </GridItem>
+                        <GridItem sm={3} md={2}>
+                              <p className={classes.nextTalks}>{talk.speaker}</p>
+                        </GridItem>
+                        <GridItem sm={6} md={8}>
+                              <p className={classes.nextTalks}>{talk.tittle}</p>
+                        </GridItem>
+                        <GridItem sm={12} md={12}>
+                           <Divider variant="fullWidth"/>
+                        </GridItem>
+                     </Hidden>
+                     {/* Seccion Movil */}
+                     <Hidden smUp>
+                        <GridItem xs={12} sm={3} md={2}>
+                              <p className={classes.nextTalks}><b>{talk.speaker}</b> - {talk.date}</p>
+                        </GridItem>
+                        <GridItem xs={12}>
+                              <p className={classes.nextTalks}>{talk.tittle}</p>
+                        </GridItem>
+                        <GridItem xs={12} sm={12} md={12}>
+                           <Divider variant="fullWidth"/>
+                        </GridItem>
+                     </Hidden>
+                     </>
+                  ))}
+               </GridContainer>
             </div>
         </div>
         </>
