@@ -125,7 +125,7 @@ export default function FutureTalks(){
         {
             date: "January 21",
             speaker: "Tudor Ratiu",
-            tittle: "EPFL & Shanghai Jiao Tong University - China"
+            tittle: "EPFL & Shanghai Jiao Tong University - Switzerland and China"
         },  
         {
             date: "February 4",
@@ -155,7 +155,7 @@ export default function FutureTalks(){
         {
             date: "April 22",
             speaker: "Yang-Hui He",
-            tittle: "University of Oxford - England"
+            tittle: "City, University of London and University of Oxford - UK"
         },
         {
             date: "May 6",
