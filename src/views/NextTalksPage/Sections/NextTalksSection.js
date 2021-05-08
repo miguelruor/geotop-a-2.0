@@ -18,11 +18,11 @@ export default function NextTalksSection(){
     
     const [talks2, setTalks2] = useState([
         {
-            date: "May 7, 2021",
-            speaker: "Aldo Guzmán-Sáenz",
-            title: "Applying TDA on genomic and metagenomic data.",
-            keywords: ["topological data analysis (TDA)", "persistent homology", "genomics", "metagenomics"],
-            abstract: "<p>The field of computational biology aims to gain insights from biological data. In particular, from genomic and metagenomic data through tools that for some time now include geometric and topological methods. In this talk we will mention two applications of these tools in this setting: Using persistent homology to aid machine learning classifiers in a phenotype prediction task for Parkinson's disease, and to help identify organisms present in a metagenomic sample.</p>",
+            date: "May 21, 2021",
+            speaker: "Caroline Uhler",
+            title: "TBA",
+            keywords: ["TBA"],
+            abstract: "<p>TBA</p>",
         },
     ]);
 
@@ -62,7 +62,7 @@ export default function NextTalksSection(){
                 </GridContainer>
                     </GridItem>*/}
             <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-              <div style={{textAlign: "center"}}><img src={image2} className={imageClasses}/></div>
+              {/*<div style={{textAlign: "center"}}><img src={image2} className={imageClasses}/></div>*/}
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
                 <GridContainer>
