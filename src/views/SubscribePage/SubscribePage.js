@@ -67,6 +67,7 @@ export default function HomePage(props) {
                 (mi != null ? mi : "") + " " + doc.data().surname,
                 middle_initial: mi,
                 name: doc.data().name,
+                talks: doc.data().talks,
                 institution: doc.data().place,
                 country: "",
                 state: "",
