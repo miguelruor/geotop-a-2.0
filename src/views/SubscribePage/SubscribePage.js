@@ -29,6 +29,20 @@ const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
+var month = new Array();
+month[0] = "January";
+month[1] = "February";
+month[2] = "March";
+month[3] = "April";
+month[4] = "May";
+month[5] = "June";
+month[6] = "July";
+month[7] = "August";
+month[8] = "September";
+month[9] = "October";
+month[10] = "November";
+month[11] = "December";
+
 export default function HomePage(props) {
   const classes = useStyles();
   const { ...rest } = props;
@@ -37,7 +51,6 @@ export default function HomePage(props) {
 
   var talks = {};
 
-  
   const [speakers1, setSpeakers] = useState({});
 
   const [talks1, setTalks] = useState({});
@@ -72,11 +85,13 @@ export default function HomePage(props) {
     await db.collection("talks").get()
     .then(function(querySnapshot){
         querySnapshot.forEach(async function(doc){
-            var date = doc.data().date.toDate();
+
+          let date = doc.data().date.toDate(); 
 
             talks[doc.id] = {
                 speaker_id: doc.data().speaker,
-                date: doc.data().date,
+                timestamp: doc.data().date,
+                date: month[date.getMonth()] + " " + date.getDate().toString() + ", " + date.getFullYear().toString(),
                 video: doc.data().video,
                 title: doc.data().title,
                 keywords: doc.data().keywords,

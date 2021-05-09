@@ -1,0 +1,1091 @@
+{
+    "0": {
+        "speaker_id": 0,
+        "timestamp": {
+            "seconds": 1534482000,
+            "nanoseconds": 0
+        },
+        "date": "August 17, 2018",
+        "video": "https://www.youtube.com/embed/574upkq0wDE",
+        "title": "DNA Topology",
+        "keywords": [
+            "DNA",
+            "topoisomerase",
+            "site-specific recombination",
+            "knots",
+            "links",
+            "tangle model",
+            "supercoiling",
+            "viral capsids"
+        ],
+        "abstract": "<p align=\"justify\"><br>Cellular DNA is a long, thread-like molecule with remarkably complex topology. Enzymes that manipulate the geometry and topology of cellular DNA perform many vital cellular processes (including segregation of daughter chromosomes, gene regulation, DNA repair, and generation of antibody diversity). Some enzymes pass DNA through itself via enzyme-bridged transient breaks in the DNA; other enzymes break the DNA apart and reconnect it to different ends. In the topological approach to enzymology, circular DNA is incubated with an enzyme, producing an enzyme signature in the form of DNA knots and links. By observing the changes in DNA geometry (supercoiling) and topology (knotting and linking) due to enzyme action, the enzyme binding and mechanism can often be characterized. This talk will discuss topological models for DNA strand passage and exchange, including the analysis of site-specific recombination experiments on circular DNA and the analysis of packing geometry of DNA in viral capsids. </p>",
+        "season": "FALL 2018",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "1": {
+        "speaker_id": 1,
+        "timestamp": {
+            "seconds": 1536296400,
+            "nanoseconds": 0
+        },
+        "date": "September 7, 2018",
+        "video": "https://www.youtube.com/embed/Yd83jnhnCS4",
+        "title": "A brief introduction to Discrete Exterior Calculus",
+        "keywords": [
+            "differential forms",
+            "Hodge star operator",
+            "simplicial complex",
+            "boundary operator",
+            "discrete exterior calculus"
+        ],
+        "abstract": "<p align=\"justify\"><br>Discrete Exterior Calculus (DEC) is a relatively new method for solving partial differential equations numerically. The central idea of the method is to develop a discrete version of Exterior Differential Calculus. In this talk, we will briefly review the various operators of Exterior Differential Calculus and their discrete versions. We will then focus our attention in 2D DEC, presenting a geometric interpretation of DEC as well as numerical comparisons with the Finite Element Method in order to show DEC’s competitive performance. </p>",
+        "season": "FALL 2018",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "2": {
+        "speaker_id": 2,
+        "timestamp": {
+            "seconds": 1537506000,
+            "nanoseconds": 0
+        },
+        "date": "September 21, 2018",
+        "video": "https://www.youtube.com/embed/uPDxjaNSMcw",
+        "title": "Knotted DNA: conformational, dynamical and pore-translocation properties",
+        "keywords": [
+            "pore translocation",
+            "DNA knots",
+            "DNA supercoiling",
+            "DNA"
+        ],
+        "abstract": "<p align=\"justify\"><br>Knots and supercoiling are both introduced in bacterial plasmids by catalytic processes involving DNA strand passages. I will report on a recent study where we used molecular dynamics simulations and a mesoscopic DNA model, to study the simultaneous presence of knots and supercoiling in DNA rings and the kinetic and metric implications which may be relevant for the simplyfing action of topoisomerases. Finally, I will discuss how the same modelling and simulation approach can be used shed light on the complex experimental phenomenology of knotted DNA translocating through solid state nanopores.</p>",
+        "season": "FALL 2018",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "3": {
+        "speaker_id": 3,
+        "timestamp": {
+            "seconds": 1539925200,
+            "nanoseconds": 0
+        },
+        "date": "October 19, 2018",
+        "video": "https://www.youtube.com/embed/QD4-qm2-vTA",
+        "title": "Discrete Morse Theory",
+        "keywords": [
+            "discrete Morse theory",
+            "persistent homology",
+            "cellular sheaf theory",
+            "flow category"
+        ],
+        "abstract": "<p align=\"justify\"><br>Large-scale homology computations are rendered tractable in practice by a combinatorial version of Morse theory. Assuming that my internet connection survives, in this talk I will introduce discrete Morse theory, describe how it helps with computing various types of homology, and outline a powerful new higher-categorical extension. The audience will not require prior knowledge of any of the technical terms mentioned above.</p>",
+        "season": "FALL 2018",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "4": {
+        "speaker_id": 4,
+        "timestamp": {
+            "seconds": 1541743200,
+            "nanoseconds": 0
+        },
+        "date": "November 9, 2018",
+        "video": "https://www.youtube.com/embed/JZUe54BwRGI",
+        "title": "Simplicial complexity: piecewise linear motion planning in robotics.",
+        "keywords": [
+            "topological complexity",
+            "simplicial topology",
+            "simplicial aproximation",
+            "contiguity of maps"
+        ],
+        "abstract": "<p align=\"justify\"><br> Using the notion of contiguity of simplicial maps, and its relation (via iterated subdivisions) to the notion of homotopy between continuous maps, we adapt Farber's topological complexity to the realm of simplicial complexes. We show that, for a finite simplicial complex K, our discretized concept recovers the topological complexity of the realization of K.</p>",
+        "season": "FALL 2018",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "5": {
+        "speaker_id": 5,
+        "timestamp": {
+            "seconds": 1542952800,
+            "nanoseconds": 0
+        },
+        "date": "November 23, 2018",
+        "video": "https://www.youtube.com/embed/IYmEPzD4YQg",
+        "title": "Geometric devils in topological dynamics.",
+        "keywords": [
+            "inflexion",
+            "singularity",
+            "self-linking",
+            "twist",
+            "knots",
+            "braids",
+            "topological change",
+            "Möbius band",
+            "2-sided disk"
+        ],
+        "abstract": "<p align=\"justify\">Geometric and topological features play an important role in many physical systems, especially in fluid dynamics where forces drive continuous deformation. The benign influence of geometry, which is the muscular actor in topological dynamics, has sometimes a more devilish nature. Here we show how two different types of singularities that may emerge during the evolution of magnetic fields and soap films are responsible for the spontaneous reorganization and energy change of these systems.</p> <p align=\"justify\">A first example is given by the inflexional instability of magnetic knots that under conservation of self-linking number brings inflexional magnetic knots to inflexion-free braids through an integrable singularity of torsion. A second example is given by the continuous deformation of a soap film Möbius band to a 2-sided disk by a drastic change of the soap film topology through a twisted fold catastrophe. These are examples of generic behaviors that trigger energy relaxation in a wide variety of different physical contexts. </p> <p align=\"justify\">[1] Moffatt, H.K. & Ricca, R.L. (1992) Helicity and the Călugăreanu invariant. <i>Proc. R. Soc. A</i> <b>439</b>, 411-429. <br> [2] Ricca, R.L. (2005) Inflexional disequilibrium of magnetic flux tubes. <i>FluidDyn. Res.</i> <b>36</b>, 319-332. <br> [3] Goldstein, R.E., Moffatt, H.K., Pesci, A.I. & Ricca, R.L. (2010) A soapfilm Möbius strip changes topology with a twist singularity. <i>Proc.Natnl. Acad. Sci. USA</i> <b>107</b>, 21979-21984.</p>",
+        "season": "FALL 2018",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "6": {
+        "speaker_id": 6,
+        "timestamp": {
+            "seconds": 1543557600,
+            "nanoseconds": 0
+        },
+        "date": "November 30, 2018",
+        "video": "https://www.youtube.com/embed/rHjsntnze9U",
+        "title": "A very elementary introduction to the combinatorial topology approach to distributed computing.",
+        "keywords": [
+            "distributed computing",
+            "combinatorial topology"
+        ],
+        "abstract": "<p align=\"justify\">An introductory lecture following the approach of the book by Herlihy, Kozlov, Rajsbaum \"Distributed Computing through Combinatorial Topology\", Elsevier-Morgan Kaufmann, based on the notions of indistinguishability and perspectives. Illustrating the use of simplicial complexes via simple examples. No preliminary knowledge either about topology or about distributed computing. </p>",
+        "season": "FALL 2018",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "7": {
+        "speaker_id": 7,
+        "timestamp": {
+            "seconds": 1538888400,
+            "nanoseconds": 0
+        },
+        "date": "October 7, 2018",
+        "video": "https://www.youtube.com/embed/wHyGoKGy_7A",
+        "title": "Polarization geometry of crystals and the blue sky.",
+        "keywords": [
+            "polarization",
+            "optical axis",
+            "multiple scattering",
+            "birefringence"
+        ],
+        "abstract": "<p align=\"justify\">The world would look very different to us if, like many insects and other animals, our eyes could see the polarization of light. In particular, we would see a distinctive “fingerprint” pattern in the blue sky overhead, as well as many crystalline materials that surround us. In this talk I will describe the geometry of optical polarization patterns from Maxwell’s equations, and in doing so reveal the deep and surprising relationship between the polarization pattern of birefringent crystals and the blue sky, based on a geometric and topological understanding of the tensors involved in the propagation and scattering of light. </p>",
+        "season": "FALL 2018",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "8": {
+        "speaker_id": 8,
+        "timestamp": {
+            "seconds": 1548396000,
+            "nanoseconds": 0
+        },
+        "date": "January 25, 2019",
+        "video": "https://www.youtube.com/embed/zY6mTpkG9FQ",
+        "title": "Unitary Braiding and Topological Quantum Computing.",
+        "keywords": [
+            "quantum computation",
+            "Hilbert space",
+            "complex space",
+            "state vector",
+            "unitary transformation",
+            "measurement",
+            "quantum Hall effect",
+            "Fibonacci model",
+            "Majorana Fermion",
+            "Artin braid group",
+            "unitary braiding",
+            "Clifford algebra"
+        ],
+        "slides": "https://www.dropbox.com/sh/fhonhrtm62f1ge5/AAAVfhjvxnUinMlRekrAghTwa?dl=0",
+        "abstract": "<p align=\"justify\">Quantum computation can be regarded as a methodical study of the structure preparation, evolution, and measurement of quantum systems in a computational framework. In a quantum system, a physical state corresponds to a unit length vector in a complex space (Hilbert space or finite dimensional complex space depending on the problem). A physical process corresponds to the application of a unitary transformation to a state. A measurement of a state projects that state to one of a number of orthogonal possibilities represented by an orthonormal basis for the complex space. The probability of a measurement is the absolute square of its coefficient in the state vector. A quantum computer consists in a unitary transformation and the capability to prepare states, apply the unitary transformation and measure the results. The statistics of repeated measurement gives the information for the computation. Thus the key to quantum computing is the design of unitary transformations that can accomplish a particular task. There are a number of designs that are very interesting such as Shor’s method of factoring integers on a quantum computer. The design of actual quantum computers is very difficult because it is hard to control measurement and keep the system from decohering in its interaction with the environment. It is thought that topological physical situations, such as the behaviour of anyons in the quantum Hall effect or the behaviour of Majorana Fermions in nano wires, may hold the key to the desired fault tolerant computation. In both of these instances one can formulate the unitary transformations in terms of representations of the Artin Braid group that are related to the physics of the situation. It is thought that such topological phases of physical systems will be resistant to perturbation and will make scalable quantum computing possible. It is the purpose of this talk to describe braiding related to both the quantum Hall effect (the Fibonacci model) and unitary braiding related to Majorana Fermions (braiding from Clifford algebras). The talk will be self-contained and as pictorial as possible. </p>",
+        "season": "SPRING 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "9": {
+        "speaker_id": 9,
+        "timestamp": {
+            "seconds": 1549605600,
+            "nanoseconds": 0
+        },
+        "date": "February 8, 2019",
+        "video": "https://www.youtube.com/embed/twSF7f5sDck",
+        "title": "Learning Algebraic Varieties from Samples.",
+        "keywords": [
+            "persistent homology",
+            "dimension estimates",
+            "learning varieties",
+            "varieties"
+        ],
+        "abstract": "<p align=\"justify\">\"I will discuss how to determine vanishing polynomials on a fixed finite sample of points and what to do with that information. For example, from the equations defining a variety one can learn the degree and the dimension of the variety. One can also construct ellipsoid complexes which, based on the experiments, strengthen the topological signal for persistent homology. All the algorithms needed are made available in a Julia package.\" </p>",
+        "season": "SPRING 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "10": {
+        "speaker_id": 10,
+        "timestamp": {
+            "seconds": 1550815200,
+            "nanoseconds": 0
+        },
+        "date": "February 22, 2019",
+        "video": "https://www.youtube.com/embed/Z9hEu2H5aUY",
+        "title": "Discrete Morse theory in action.",
+        "keywords": [
+            "discrete Morse theory",
+            "feature tracking",
+            "topological complexity",
+            "robot motion planners"
+        ],
+        "abstract": "<p align=\"justify\"> In this talk, the basics of discrete Morse theory will first be shortly summarized. We will then describe two generalizations which both have applications to mathematical models associated with motion. Parametric discrete Morse theory can be applied to tracking the motion of features in a sequence of images or scenes, and fiberwise discrete Morse theory to robot motion planning. </p>",
+        "season": "SPRING 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "11": {
+        "speaker_id": 11,
+        "timestamp": {
+            "seconds": 1552024800,
+            "nanoseconds": 0
+        },
+        "date": "March 8, 2019",
+        "video": "https://www.youtube.com/embed/jdI4PZ_McY0",
+        "title": "Why are there knots in proteins?",
+        "keywords": [
+            "protein structure",
+            "protein stability",
+            "knotted proteins",
+            "methyltransferase",
+            "ubiquitin c-terminal hydrolase",
+            "knot-promoting loops",
+            "UCH-L1",
+            "YibK",
+            "YbeA",
+            "knots"
+        ],
+        "abstract": "<p align=\"justify\"> There are now more than 1700 protein chains that are known to contain some type of topological knot in their polypeptide chains in the protein structure databank. Although this number is small relative to the total number of protein structures solved, it is remarkably high given the fact that for decades it was thought impossible for a protein chain to fold and thread in such a way as to create a knotted structure. There are four different types of knotted protein structures that contain 31, 41, 52 and 61 knots and over the past 15 years there has been an increasing number of experimental and computational studies on these systems. The folding pathways of knotted proteins have been studied in some detail, however, the focus of this talk is to address the fundamental question “Why are there knots in proteins?” It is known that once formed, knotted protein structures tend to be conserved by nature. This, in addition to the fact that, at least for some deeply knotted proteins, their folding rates are slow compared with many unknotted proteins, has led to the hypothesis that there are some properties of knotted proteins that are different from unknotted ones, and that this had resulted in some evolutionary advantage over faster folding unknotted structures. In this talk, I will review the evidence for and against this theory. In particular, how a knot within a protein chain may affect the thermodynamic, kinetic, mechanical and cellular (resistance to degradation) stability of the protein will be discussed. </p>",
+        "season": "SPRING 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "12": {
+        "speaker_id": 12,
+        "timestamp": {
+            "seconds": 1553839200,
+            "nanoseconds": 0
+        },
+        "date": "March 29, 2019",
+        "video": "https://www.youtube.com/embed/zs8zmeWzC4M",
+        "title": "Local solutions for global problems in wireless networks",
+        "keywords": [
+            "routing",
+            "algorithms",
+            "network",
+            "nodes",
+            "wireless networks"
+        ],
+        "abstract": "<p align=\"justify\"> In this paper we study on-line local routing algorithms for plane geometric networks. Our algorithms take advantage of the geometric properties of planar to route messages using only local information available at the nodes of a network. We pay special attention to on-line local routing algorithms which guarantee that a message reaches its destination. A message consists of data that have to be sent to a destination node, i.e. the message itself plus a finite amount of space that keeps only a constant amount of data to aid a message to reach its destination, e.g. the address of the starting and destination nodes, a constant number of nodes visited, etc. Local means that at each site we have at our disposal only local information regarding a node and its neighbors, i.e. no global knowledge of the network is available at any time, other that the network is planar and connected. We then develop location aided local routing algorithms for wireless communication networks, in particularly cellular telephone networks. </p>",
+        "warning": "Sound is not very clear.",
+        "season": "SPRING 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "13": {
+        "speaker_id": 13,
+        "timestamp": {
+            "seconds": 1555045200,
+            "nanoseconds": 0
+        },
+        "date": "April 12, 2019",
+        "video": "https://www.youtube.com/embed/Etijnx5B3_U",
+        "title": "Mysteries of entanglement – proteins, life and physics. Biological role of knotting.",
+        "keywords": [
+            "proteins",
+            "knots",
+            "lassos",
+            "links",
+            "theta curves",
+            "entanglement",
+            "biology"
+        ],
+        "abstract": "<p align=\"justify\"> Knotted proteins are believed to be functionally advantageous and to provide extra stability to protein chains [1]. Twenty years of their investigation suggests that they fold via a slipknot conformation, across the native twisted loop. During the talk I will show that diversity of identified folds of knotted proteins and their locations in cells is still growing and surprising us. <br> Moreover recently we went one step further and found that proteins can be even more entangled than knots – they also form lassos and links, which consist of several components. Based on the search through the entire Protein Data Bank we identified several sequentially nonhomologous chains that form a Hopf link, a Solomon link [2], and various types of lassos. I will show that topological properties of these proteins are related to their function and stability. Finally I will explain how the presence of links affects folding pathways of proteins and present new reaction coordinate to study entangled proteins. <br> During my talk I will also present knotted TrmD which is the leading antimicrobial drug target owing to its essen­tiality for bacterial growth, its broad conservation across bacterial species, and its substantial differences from the human and archaeal counterpart Trm5. I will also present our achievements in designing selective inhibitor for TrmD, based on combining theoretical and experimental methods [3]. <br> All entangled proteins – 7% of proteins deposited in the PDB – are collected in databases: KnotProt, LassoProt and LinkProt. </p> <p align=\"justify\"> [1] JI Sulkowska, E Rawdon, KC Millett, J Onuchic, A Stasiak, PNAS (2012) 109: E1715-23 <br> [2] P Dabrowski-Tumanski, JI Sulkowska, PNAS (2017) 114, 3415–3420 <br> [3] T Christian, et al., Nature S&MB (2016) 23, 941-948 </p>",
+        "season": "SPRING 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "14": {
+        "speaker_id": 14,
+        "timestamp": {
+            "seconds": 1557464400,
+            "nanoseconds": 0
+        },
+        "date": "May 10, 2019",
+        "video": "https://www.youtube.com/embed/fdwtH7b6euI",
+        "title": "Directed topological complexity.",
+        "keywords": [
+            "directed algebraic topology",
+            "topological complexity",
+            "directed invariants",
+            "homotopy theory",
+            "differential inclusions",
+            "control theory"
+        ],
+        "abstract": "<p align=\"justify\"> I will introduce in this talk a variant of topological complexity, that can be applied to help classify directed spaces, and has applications to the study of dynamical systems in the large, such as differential inclusions. Directed topological complexity looks for specific partitions {F1,…,Fn,…} of the set of reachable states of some directed space X, such that there is a continuous section from each of the Fi to the space of directed paths which is right inverse to the end points map. As in the classical case, this sheds an interesting light on a number of directed invariants, and we discuss in particular dicontractibility. We will also show some examples of calculations on directed graphs, non-positively curved cubical complexes, and directed spheres.</p> <p> This ongoing work with Aurélien Sagnier and Michael Farber. </p>",
+        "season": "SPRING 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "15": {
+        "speaker_id": 15,
+        "timestamp": {
+            "seconds": 1558674000,
+            "nanoseconds": 0
+        },
+        "date": "May 24, 2019",
+        "video": "https://www.youtube.com/embed/NKNkequdrVs",
+        "title": "Geometric Topology of Liquid Crystal Textures.",
+        "keywords": [
+            "crystal",
+            "textures",
+            "cholesteric",
+            "chirality",
+            "distortions",
+            "nematic"
+        ],
+        "abstract": "<p align=\"justify\"> The textures and phases of liquid crystals are replete with geometric motifs, and the geometric approach to elasticity underpins a large portion of nonlinear theories. Despite this, the basic characterisation of topology comes from the homotopy theory without particular attention to geometric features. I will describe our recent work developing geometric approaches to liquid crystal topology, describing cholesteric point defects and topological chirality, and the geometric features of bend distortions, illustrated by applications to the twist-bend nematic phase.</p>",
+        "season": "SPRING 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "16": {
+        "speaker_id": 16,
+        "timestamp": {
+            "seconds": 1566536400,
+            "nanoseconds": 0
+        },
+        "date": "August 23, 2019",
+        "video": "https://www.youtube.com/embed/1QpL_26cL7I",
+        "title": "Some New Geometric Methods to Distinguish Shapes and Applications in Biology",
+        "keywords": [
+            "shape",
+            "metric",
+            "space",
+            "genus-zero",
+            "surfaces",
+            "biology"
+        ],
+        "abstract": "<p align=\"justify\"> Almost everything we encounter in our 3-dimensional world is a surface - the outside of a solid object. Comparing the shapes of surfaces is, not surprisingly, a fundamental problem in both theoretical and applied mathematics. Deep mathematical results are now being used to study objects such as bones, brain cortices, proteins and biomolecules. This talk will discuss joint work with Patrice Koehl that introduces a new metric on the space of genus-zero surfaces and applies it in this context.</p>",
+        "season": "FALL 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "17": {
+        "speaker_id": 17,
+        "timestamp": {
+            "seconds": 1567746000,
+            "nanoseconds": 0
+        },
+        "date": "September 6, 2019",
+        "video": "https://www.youtube.com/embed/aJTR5l1EIwE",
+        "title": "Topological Dimensionality Reduction.",
+        "keywords": [
+            "Dimensionality reduction",
+            "topological data analysis (TDA)",
+            "persistent homology",
+            "Eilenberg-MacLane coordinates"
+        ],
+        "abstract": "<p align=\"justify\"> When dealing with complex high-dimensional data sets, several machine learning tasks rely on having appropriate low-dimensional representations. These reductions are often phrased in terms of preserving statistical or metric information and may fail to recover important topological features. We will describe in this talk several schemes to take advantage of the underlying topology of a data set, in order to produce informative low-dimensional coordinates. </p>",
+        "season": "FALL 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "18": {
+        "speaker_id": "18",
+        "timestamp": {
+            "seconds": 1570165200,
+            "nanoseconds": 0
+        },
+        "date": "October 4, 2019",
+        "video": "https://www.youtube.com/embed/Npyw75dWY2Y",
+        "title": "Random entanglements: Winding of planar Brownian motions",
+        "keywords": [
+            "planar Brownian motion",
+            "entanglement",
+            "winding number"
+        ],
+        "abstract": "<p align=\"justify\"> There exists a wide class of winding problems, where one or more planar Brownian motions get entangled around each other and obstacles in the plane. These can be seen as models of entanglement of long molecules, or as a general framework for understanding dynamical topological complexity. I will review some classical results, such as Spitzer's law, which gives the angular distribution for a planar Brownian motion around the origin. I will discuss a recent variation (with Huanyu Wen) where we add a drift that promotes entanglement. Finally, I will present ongoing work (with Gage Bonner and Benedek Valko) on the much more challenging problem of winding around several obstacles. In some limits, this can be reduced to computing the escape rate for a random walk on a so-called regular languages. </p>",
+        "season": "FALL 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "19": {
+        "speaker_id": 19,
+        "timestamp": {
+            "seconds": 1571374800,
+            "nanoseconds": 0
+        },
+        "date": "October 18, 2019",
+        "video": "https://www.youtube.com/embed/OfTTZpaOq8M",
+        "title": "Topological modeling of DNA recombination",
+        "keywords": [
+            "DNA knots",
+            "reconnection",
+            "link nomenclature",
+            "DNA topology",
+            "DNA"
+        ],
+        "abstract": "<p align=\"justify\"> DNA replication in bacteria yields two interlinked circular chromosomes. Returning the chromosomes to an unlinked monomeric state is essential to cell survival. Simplification of DNA topology is mediated by enzymes, such as recombinases and topoisomerases. We here focus on site-specific recombinases that recognize two short segments of DNA (the recombination sites), introduce two double stranded breaks and recombine the ends. The local action of site-specific recombinases is a reconnection event which is modeled mathematically as a band surgery. The banding is coherent or non-coherent, depending on the relative orientation of the recombination sites. We use tools from low dimensional topology to investigate the mechanism of action of these enzymes, and we complement the analytical work with computer simulations. The numerical work provides a quantitative measure to distinguish among pathways of topology simplification by recombination, and also informs the search for bandings between specific pairs of link types. </p>",
+        "season": "FALL 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "20": {
+        "speaker_id": 20,
+        "timestamp": {
+            "seconds": 1573192800,
+            "nanoseconds": 0
+        },
+        "date": "November 8, 2019",
+        "video": "https://www.youtube.com/embed/_kDIFc2Y94U",
+        "title": "Modeling topological polymers with Gaussian random graph embeddings.",
+        "keywords": [
+            "topological polymers",
+            "network polymers",
+            "random polygons",
+            "random graph embeddings",
+            "Kirchhoff index",
+            "biopolymers"
+        ],
+        "abstract": "<p align=\"justify\"> Very recently, chemists have succeeding in synthesizing purified samples of polymers which are more topologically complicated than the linear or ring polymers which have previously been created. The new polymers have different graph types, including theta-curves, multithetas, K_{3,3}, and K_4, with new types arriving at a rapid rate. In this talk, we develop a theory of Gaussian random graph embeddings in order to model the shapes of these polymers in solution. The theory allows us to connect the expected radius of gyration of the polymers with the Kirchhoff index of the graph. We will prove a theorem that describes the asymptotic behavior of the expected radius of gyration for large graphs of fixed topology in terms of the degree-Kirchhoff index of the graph. Last, we show that our theory provides a good fit to data from the Tezuka lab's experimental measurements of the relative sizes of topological polymers with different graph types. </p> <p> This talk is joint work with Tetsuo Deguchi and Erica Uehara (Ochanomizu University) and Clayton Shokwiler (Colorado State University), with support from the Simons Foundation (#354225 and #52412) and the Japan Science and Technology Agency (CREST Grant Number JPMJCR19T4, Deguchi Lab) and JSPS KAKENHI Grant Number JP17H06463. </p>",
+        "season": "FALL 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "21": {
+        "speaker_id": 21,
+        "timestamp": {
+            "seconds": 1573797600,
+            "nanoseconds": 0
+        },
+        "date": "November 15, 2019",
+        "video": "https://www.youtube.com/embed/StoaNWadOwE",
+        "title": "Aspects of High Dimensional Expansion.",
+        "keywords": [
+            "High dimensional expansion",
+            "simplicial cohomology",
+            "random complexes"
+        ],
+        "abstract": "<p align=\"justify\"> The Cheeger constant is a measure of the edge expansion of a graph, and as such plays a key role in diverse mathematical areas, in particular in combinatorics and theoretical computer science. In recent years there is an interest in higher dimensional notions of expansion that likewise provide a quantitative measure of cohomological acyclicity of a complex in dimension <em>k</em>. In this talk we will focus on a <em>k</em>-dimensional version of the graphical Cheeger constant called <em>coboundary expansion</em>, and on a related parameter called <em>cosystolic expansion</em>. After introducing these notions and outlining their relevance to random complexes and to topological overlap theorems, we will discuss two results. The first concerns an application of cosystolic expansion to a stability version of the cohomological classification of <em>G</em>-covering spaces (joint work with Irit Dinur). The second is a lower bound on coboundary expansion under certain symmetry assumptions (joint work with Dmitry Kozlov). </p>",
+        "season": "FALL 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "22": {
+        "speaker_id": 22,
+        "timestamp": {
+            "seconds": 1574402400,
+            "nanoseconds": 0
+        },
+        "date": "November 22, 2019",
+        "video": "https://www.youtube.com/embed/n-vVAeLBbJg",
+        "title": "Non-topological persistence.",
+        "keywords": [
+            "topological persistence",
+            "concrete category",
+            "weighted graph",
+            "coherent sampling",
+            "ranging feature",
+            "steady feature"
+        ],
+        "slides": "https://drive.google.com/file/d/0B_dw9G-4cPi3MTNGUFdmcXlUWlFQZzdGa0NPQmJpXzB1QjlN/view",
+        "abstract": "<p align=\"justify\"> After recalling \"classical\" topological persistence, I introduce the generalization of the persistent Betti number functions to what we call persistence functions. These are defined axiomatically on a wide class of concrete categories. Then, three types of processes generating persistence functions are shown: coherent samplings and ranging or steady features. Examples of all of them are given on weighted graphs coming from real situations. This is based on a joint work with Mattia G. Bergomi, Pietro Vertechi and Lorenzo Zuffi. </p>",
+        "season": "FALL 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "23": {
+        "speaker_id": 23,
+        "timestamp": {
+            "seconds": 1575612000,
+            "nanoseconds": 0
+        },
+        "date": "December 6, 2019",
+        "video": "https://www.youtube.com/embed/CzhG0SzcgXY",
+        "title": "Topological exploration of neuronal network dynamics.",
+        "keywords": [
+            "network dynamics",
+            "persistent homology"
+        ],
+        "abstract": "<p align=\"justify\"> One of the paramount challenges in neuroscience is to understand the dynamics of networks of interconnected neurons. In this talk I will describe a novel approach to classifying network dynamics that employs tools from topological data analysis. The efficacy of our method was established by studying simulated activity in three small artificial neural networks in which we varied certain “biological” parameters, giving rise to dynamics that could be classified into four regimes, and showing that a machine learning classifier trained on features extracted from persistent homology could accurately predict the regime of the network it was trained on and also generalize to other networks not presented during training. I will also discuss the application of these methods to networks of actual neurons in mice. This is joint work with Jean-Baptiste Bardin and Gard Spreemann.</p>",
+        "season": "FALL 2019",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "24": {
+        "speaker_id": 24,
+        "timestamp": {
+            "seconds": 1579845600,
+            "nanoseconds": 0
+        },
+        "date": "January 24, 2020",
+        "video": "https://www.youtube.com/embed/EGOvOcaQvqw",
+        "title": "Delaunay triangulation of manifolds.",
+        "keywords": [
+            "computational geometry",
+            "computational topology",
+            "Delaunay triangulation",
+            "manifold"
+        ],
+        "abstract": "<p align=\"justify\"> The Delaunay complex is a natural structure to consider when seeking to triangulate a space equipped with a metric. It plays a central role in the development of algorithms for meshing Euclidean domains. In applications where an anisotropic mesh is desired, a standard approach is to consider a Riemannian metric defined over the domain and to construct an approximate Delaunay triangulation with respect to this metric.</p> <p>In the case of surfaces, it has been shown that a Delaunay triangulation exists if the set of sample points is sufficiently dense but this is no longer true in higher dimensional manifolds: sample density alone is not sufficient to ensure that the Delaunay complex is a triangulation. To walk around this difficulty, we first introduce perturbation algorithms in Euclidean space that make the Delaunay triangulation of well-distributed point sets quantifiably stable with respect to perturbations of the metric or of the point positions. We then adapt this Euclidean perturbation algorithm to the context of compact manifolds equipped with a metric that can be locally approximated by a Euclidean metric. In particular, this includes Riemannian metrics, as well as the extrinsic metric on submanifolds variations of which have been exploited in algorithms for reconstructing submanifolds of Euclidean space from a finite set of sample points. The simplicial complex produced by our algorithm is naturally equipped with a piecewise flat metric that is a quantifiably good approximation to the metric on the original manifold. </p>",
+        "season": "SPRING 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "25": {
+        "speaker_id": 25,
+        "timestamp": {
+            "seconds": 1581055200,
+            "nanoseconds": 0
+        },
+        "date": "February 7, 2020",
+        "video": "https://www.youtube.com/embed/IbTGmxAvAlM",
+        "title": "Algebraic Systems Biology",
+        "keywords": [
+            "algebraic systems",
+            "biology",
+            "models",
+            "topological data analysis (TDA)"
+        ],
+        "abstract": "<p align=\"justify\"> Signalling pathways can be modelled as a biochemical reaction network. When the kinetics follow mass-action kinetics, the resulting mathematical model is a polynomial dynamical system. I will overview approaches to analyse these models with steady-state data using computational algebraic geometry and statistics. Then I will present how to analyse such models with time-course data using differential algebra and geometry for model identifiability. Finally, I will present how topological data analysis can provide additional information to distinguish these models and experimental data from wild-type and mutant molecules. These case studies showcase how computational geometry, topology and dynamics can provide new insights in the biological systems, specifically how changes at the molecular scale (e.g. MEK WT and mutants) result in phenotypic changes (e.g. fruit fly mutations). </p>",
+        "season": "SPRING 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "26": {
+        "speaker_id": 26,
+        "timestamp": {
+            "seconds": 1582264800,
+            "nanoseconds": 0
+        },
+        "date": "February 21, 2020",
+        "video": "https://www.youtube.com/embed/5aeWC1PwUNE",
+        "title": "On the Geometric Hypothesis of Banach.",
+        "keywords": [
+            "geometric hypothesis",
+            "Banach",
+            "Hilbert space",
+            "conjecture"
+        ],
+        "abstract": "<p align=\"justify\"> The following is known as the geometric hypothesis of Banach: let <em>V</em> be an <em>m</em>-dimensional Banach space and suppose all <em>n</em>-dimensional subspaces of <em>V</em> are isometric, <em>n > 1</em>. In 1932, Banach conjectured that under this hypothesis <em>V</em> is a Hilbert space. Gromov proved in 1967 that the conjecture is true for <em>n=</em>even and Dvoretzky derived the same conclusion under the hypothesis <em>m=infinity</em> and <em>V</em> a real Banach space, V. Millman proved the analogous when <em>V</em> is a complex Banach space . We prove this conjecture for <em>V</em> a real Banach space of dimension <em>n=4k+1</em>, with the possible exemption of 133.</p> <p>The ingredients of the proof are classical homotopy theory, irreducible representations of the orthogonal group and convex geometry (ellipsoids). At the end of the lecture, will discuss the case in which <em>V</em> is a complex Banach space of dimension <em>n=4k+1</em>. </p>",
+        "season": "SPRING 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "27": {
+        "speaker_id": 27,
+        "timestamp": {
+            "seconds": 1583474400,
+            "nanoseconds": 0
+        },
+        "date": "March 6, 2020",
+        "video": "https://www.youtube.com/embed/E4bhPpZxtIg",
+        "title": "On the interplay between DNA topology, elasticity, and its biological role.",
+        "keywords": [
+            "Elastic rod theory",
+            "Immersed boundary method",
+            "DNA supercoiling",
+            "gene regulation",
+            "DNA",
+            "biology"
+        ],
+        "abstract": "<p align=\"justify\">Topological properties of DNA molecules play important role in biology. The ability of cells to control DNA topology is essential for their survival, and topology also controls the geometrical properties of the molecule which influence its function. Advances in the theory of DNA elasticity clarified our understanding of this role and other phenomena associated with biological function and storage of DNA. Classical elastic rod models have been applied to DNA supercoiling, knotting, and cyclization, while base-pair level models of DNA made it possible to incorporate the effects of nucleotide sequence and the negative charge of DNA in new mesoscale models of complex DNA-protein assemblies, which yielded insights into the role of DNA deformability in gene regulation. More recently, simulations of the dynamics of elastic rods submerged in a viscous incompressible fluid has been conducted in order to gain understanding of the behavior of topologically constrained DNA molecules. This lecture will give an overview of recent research on the above topics. </p>",
+        "season": "SPRING 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "28": {
+        "speaker_id": 28,
+        "timestamp": {
+            "seconds": 1584684000,
+            "nanoseconds": 0
+        },
+        "date": "March 20, 2020",
+        "video": "https://www.youtube.com/embed/Qw8O8BdNADo",
+        "title": "Some Topological Aspects of Fluid Dynamics.",
+        "keywords": [
+            "vortex dynamics",
+            "singularities",
+            "Lagrangian chaos",
+            "dynamo mechanisms",
+            "magnetic relaxation",
+            "knotted vortices",
+            "stability",
+            "finite-time singularity problem"
+        ],
+        "slides": "https://drive.google.com/file/d/1EY3QIy2W37j-7PxEQEr9QQbJm279n1Ex/view",
+        "abstract": "<p align=\"justify\">In this this lecture, I will provide an informal introduction to a range of topics in fluid dynamics that have a topological character. These topics include flows with boundary singularities, Lagrangian chaos, frozen-in fields, magnetohydrodynamic analogies, fast and slow dynamo mechanisms, magnetic relaxation, minimum energy states, knotted flux tubes, vortex reconnection and the finite-time singularity problem. I will conclude with a number of open questions concerning these topics. </p>",
+        "season": "SPRING 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "29": {
+        "speaker_id": 29,
+        "timestamp": {
+            "seconds": 1585893600,
+            "nanoseconds": 0
+        },
+        "date": "April 3, 2020",
+        "video": "https://www.youtube.com/embed/yll-4kUoboI",
+        "title": "Hamiltonian time crystals - why do they exist and how do they move",
+        "keywords": [
+            "Hamiltonian dynamics",
+            "molecular dynamics",
+            "knotted molecules",
+            "crystals"
+        ],
+        "abstract": "<p align=\"justify\">I explain what is an energy conserving, Hamiltonian time crystal. I show how it arises and how it moves, in terms concrete examples. But according to no-go theorems Hamiltonian time crystals are not supposed to exist, thus I start and show a way around these no-go theorems: I explain why a timecrystalline dynamics needs to take place on a pre-symplectic rather than a symplectic phase space. For this the Hamiltonian needs to support conserved charges, and the occurrence of a time crystal becomes relates to the wider concept of spontaneously broken symmetries. Except that in the case of a time crystal, the symmetry breaking takes place in a dynamical context. I then analyze in detail a general family of time crystalline Hamiltonians It describes the dynamics of string-like objects, such as a molecular chain. I show how the topology of the chain, its knottiness, has a strong effect to its timecrystalline character. </p>",
+        "season": "SPRING 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "30": {
+        "speaker_id": 30,
+        "timestamp": {
+            "seconds": 1587704400,
+            "nanoseconds": 0
+        },
+        "date": "April 24, 2020",
+        "video": "https://www.youtube.com/embed/JSVE-ukefPg",
+        "title": "Entanglement of Polymers",
+        "keywords": [
+            "polymer",
+            "gel",
+            "entanglement",
+            "Gauss linking integral",
+            "periodic boundary systems",
+            "excluded volume",
+            "reptation",
+            "linking matrix",
+            "entanglement length",
+            "viscoelasticity",
+            "oscillatory shear"
+        ],
+        "abstract": "<p align=\"justify\"> Entanglement in polymeric systems has been central theme since, at least, the work of Sir Sam Edwards, Pierre-Gilles de Gennes, and Jacques des Cloizeaux in the 60’s. Beginning with a somewhat historical discussion tracing these early developments, I will sketch some key elements that have catalyzed my own polymer physics research before focusing polymer gels and the seminal theory of Eleni Panagiotou on polymer entanglement in periodic boundary system models of polymer gels. I will then trace how her dissertation lead to a fruitful collaboration with me and others some whose results will be described next. These concern, time permitting, ideal systems, polyethylene gels, one-dimensional systems, the determination of entanglement length, linking matrices associated to gels, and the relationship between entanglement and viscoelasticity. </p>",
+        "warning": "Unexpectedly, the chirping of birds is heard during the final questions.",
+        "season": "SPRING 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "31": {
+        "speaker_id": 31,
+        "timestamp": {
+            "seconds": 1589864400,
+            "nanoseconds": 0
+        },
+        "date": "May 19, 2020",
+        "video": "https://www.youtube.com/embed/91e2kQA5GW4",
+        "title": "Computational homology in statistical genetics: applications to cancer genomic data.",
+        "keywords": [
+            "breast cancer genomics",
+            "statistical genetics",
+            "topological data analysis (TDA)",
+            "copy number changes",
+            "computational homology"
+        ],
+        "abstract": "<p align=\"justify\">Genomic technologies have revolutionized the field of genetics. In particular, the identification of genetic elements has greatly benefited from statistical genetics tools that, through association studies, test thousands of genetic elements for a given phenotype. </p> <p align=\"justify\"> In this talk I will present a methodology that combines topological data analysis with statistical genetics to identify genetic signatures (in the form of copy number aberrations) in breast cancer. The proposed topological encoding of these chromosome aberrations allows to: (1) map chromosome aberrations across the cancer genome using the zero homology group (2) build predictive models using machine learning techniques (3) identify some co-amplifications of the genome using the first homology group (4) identify cancer driving genes when incorporating a fiber bundle-like structure to the data. </p>",
+        "season": "SPRING 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "32": {
+        "speaker_id": 32,
+        "timestamp": {
+            "seconds": 1593061200,
+            "nanoseconds": 0
+        },
+        "date": "June 25, 2020",
+        "video": "https://www.youtube.com/embed/WWwMf8Nd494",
+        "title": "Backbone Free Energy Estimator, a New Geometric Tool in Structural Biology.",
+        "keywords": [
+            "proteins",
+            "free energy",
+            "geometry",
+            "viral glycoproteins",
+            "capsids",
+            "biology"
+        ],
+        "abstract": "p align=\"justify\">Hydrogen bonds stabilize the crystal structures of most proteins. In the aqueous environment, they lie at the edge of stability and hence are easily formed and broken, especially those with high free energy. </p> <p align=\"justify\"> Using a Boltzmann-like formalism, empirical sampling of their geometry leads to free energy estimates, thus allowing a priori predictions of protein regions primed for structural rearrangement. One among diverse applications involves viral glycoproteins and capsids, namely those proteins employed by viruses to fuse with or penetrate the host cell. Here the methods are used to identify sites of interest for vaccine/drug/testing development, in particular for the SARS CoV-2 virus that causes COVID-19. </p>",
+        "season": "SPRING 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "33": {
+        "speaker_id": 33,
+        "timestamp": {
+            "seconds": 1597986000,
+            "nanoseconds": 0
+        },
+        "date": "August 21, 2020",
+        "video": "https://www.youtube.com/embed/UBts4ZuU2yU",
+        "title": "A CW-complex of Monotone Polyhedral Paths: Geometric/topological meditations about the performance of the Simplex Method.",
+        "keywords": [
+            "polyhedral graphs",
+            "convex geometry",
+            "convex polytopes",
+            "CW- complexes",
+            "Simplex Method",
+            "monotone paths on polytopes",
+            "directed graphs",
+            "analysis of algorithms"
+        ],
+        "abstract": "<p align=\"justify\">George Dantzig’s Simplex method is a work horse of modern computational mathematics. Because linear programs (LPs) appear in all areas of application the Simplex methods was elected as one of the top 10 algorithms in the 20th century. Surprisingly, despite its popularity and almost 80 years of research we still do not fully understand its complexity and behavior. </p>  <p align=\"justify\">To bound the number of iterations of the Simplex method we take a geometric point of view and investigate the possible lengths of monotone paths inside the oriented graphs of polyhedra (oriented by the objective function). We are interested in both the shortest and the longest monotone paths possible and estimate the (monotone) diameter and the height of some famous combinatorial polyhedra (such as TSP, fractional matching polytopes, and others). But how far apart are two monotone paths of an LP? E.g., if I use two pivot rules the Simplex method traces two paths, is there a notion of distance between them?. As we look at all monotone paths together we see a metric space structure which can be used to count how many are there or to generate them randomly. This comes from a very natural graph (the flip-path graph) and CW complex structures (cellular-strings complex) on the set of monotone paths These objects are important in topological combinatorics (Baues complexes and polyhedral subdivisions studied by Billera, Sturmfels, Gelfand, Kapranov, Zelevinsky and others in the early 1990’s) and in discrete optimization (In particular the complexity of the simplex method with work going back to Klee). In my talk I will discuss some natural counting problems associated with the discrete geometric situation. Our main enumerative results include bounds on the number of monotone paths, and on the the diameter of the space of monotone paths (how far are two monotone paths from each other?). The picture is fairly complete in dimension three, but plenty of open problems remain for high dimensional polytopes. </p> <p align=\"justify\">The new theorems presented in my talk come from three recent papers (in Arxiv), the first joint work with Moise Blanchard (MIT) and Quentin Louveaux (U. Liege) the second joint work with Christos Athanasiadis (U. Athens) and Zhenyang Zhang (UC Davis), the third with Sean Kafer (U. Waterloo) and Laura Sanita (Eidhoven U).</p>",
+        "season": "FALL 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "34": {
+        "speaker_id": 34,
+        "timestamp": {
+            "seconds": 1599195600,
+            "nanoseconds": 0
+        },
+        "date": "September 4, 2020",
+        "video": "https://www.youtube.com/embed/o4CK1MZ8984",
+        "title": "Homological Percolation and Persistence.",
+        "keywords": [
+            "percolation",
+            "persistent homology",
+            "stability",
+            "topological data analysis (TDA)"
+        ],
+        "abstract": "<p align=\"justify\">One of the key goals in topological data analysis is find or infer the global structure of a sampled space by correctly determining the homology groups. Given a sample (data) embedded in Euclidean space (or some more general space), the general pipeline is to build a distance based filtration and compute the corresponding persistence diagram. The standard way of proving results about the result is via the bottleneck stability of persistence diagrams. However, it turns out that in many cases this provides a highly pessimistic approximation result. In this talk, I will present recent results which show that the structure of an underlying space appears much earlier than expected and is remarkably stable. I will describe how these results fit into our understanding of the stability of persistence and show how the persistent approach can be useful in new ways. The talk will assume some passing familiarity with persistent homology and TDA but will not assume any previous knowledge about percolation. </p>",
+        "season": "FALL 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "35": {
+        "speaker_id": 35,
+        "timestamp": {
+            "seconds": 1600405200,
+            "nanoseconds": 0
+        },
+        "date": "September 18, 2020",
+        "video": "https://www.youtube.com/embed/nyO4KQTmwzU",
+        "title": "The Truncated Interleaving Distance for Reeb Graphs",
+        "keywords": [
+            "reeb graph",
+            "interleaving"
+        ],
+        "abstract": "<p align=\"justify\">Reeb graphs and main other related graphical signatures have extensive use in applications, but only recently has there been intense interest in finding metrics for these objects. In this talk, we introduce an extension of smoothing on Reeb graphs, which we call truncated smoothing; this in turn allows us to define a new family of metrics which generalize the interleaving distance for Reeb graphs. Intuitively, we ``chop off'' parts near local minima and maxima during the course of smoothing. After formalizing truncation as a functor, we show that when applied after the smoothing functor, this prevents extensive expansion of the range of the function, and yields particularly nice properties (such as maintaining connectivity) when combined with smoothing. Further, for certain choices of the truncation parameter, we have additional structure which we can take advantage of to construct a categorical flow for any choice of slope <i>m</i> in <i>[0,1]</i>. Using the infrastructure built for a category with a flow, this then gives an interleaving distance for every <i>m</i> in <i>[0,1]</i>, which is a generalization of the original interleaving distance, which is the case <i>m=0</i>. While the resulting metrics are not stable, we show that any pair of these for <i>m,m'</i> in <i>[0,1)</i> are strongly equivalent metrics, which in turn gives stability of each metric up to a multiplicative constant. This talk is on joint work with Erin Chambers and Tim Ophelders. </p>",
+        "season": "FALL 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "36": {
+        "speaker_id": 36,
+        "timestamp": {
+            "seconds": 1601614800,
+            "nanoseconds": 0
+        },
+        "date": "October 2, 2020",
+        "video": "https://www.youtube.com/embed/fZkMwgKswEg",
+        "title": "Magnetic helicity: decompositions and methods of localization.",
+        "keywords": [
+            "helicity",
+            "wavelets",
+            "poloidal-toroidal decomposition"
+        ],
+        "abstract": "<p align=\"justify\"> Magnetic helicity is an ideal MHD invariant; it measures geometric and topological properties of a magnetic field. The talk will begin by reviewing helicity and its mathematical properties. It can be decomposed in several ways (for example, self and mutual helicity, Fourier spectra, field line helicity, linking, twist, and writhe). The talk will also review methods of measuring helicity flux, as well as applications in solar and stellar astrophysics. </p> <p align=\"justify\">The poloidal-toroidal decomposition of a vector field will be discussed, with a generalization to arbitrary simply connected compact surfaces. I will then discuss some new developments in measuring localized concentrations of helicity in a well-defined, gauge invariant manner, using wavelets. </p>",
+        "season": "FALL 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "37": {
+        "speaker_id": 37,
+        "timestamp": {
+            "seconds": 1602824400,
+            "nanoseconds": 0
+        },
+        "date": "October 16, 2020",
+        "video": "https://www.youtube.com/embed/mLUozD6-Db4",
+        "title": "COVID-19, Viruses, Recombination and Topology",
+        "keywords": [
+            "COVID-19",
+            "viruses",
+            "recombination",
+            "topological data analysis (TDA)"
+        ],
+        "abstract": "<p align=\"justify\"> COVID-19 is a disease caused by a coronavirus named SARS-CoV-2. As the virus has been spreading around the world, hundred of thousands of viral genomes have been sequenced. Genomes provide an accurate record of variation and evolution and can inform how these viruses emerge and evolve. In this talk I will discuss how mutations and recombinations shape SARS-CoV-2 evolution, and how topological data analysis techniques can help to understand the role of these processes in the emergence of this and other potential future viruses. </p>",
+        "season": "FALL 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "38": {
+        "speaker_id": 38,
+        "timestamp": {
+            "seconds": 1604642400,
+            "nanoseconds": 0
+        },
+        "date": "November 6, 2020",
+        "video": "https://www.youtube.com/embed/qaU4P5AJkH0",
+        "title": "Detecting geodesic circles with selective Rips complexes.",
+        "keywords": [
+            "persistent homology",
+            "selective Rips complex",
+            "geodesic space",
+            "closed geodesic"
+        ],
+        "abstract": "<p align=\"justify\"> Persistent homology is a well known invariant encoding geometric properties of an underlying metric space. While the nature of this encoding and precise geometric information it contains are not well understood, it is known that geodesic circles (a special class of closed geodesics in a geodesic space) can sometimes be detected with one- or higher-dimensional persistent homology. </p> <p align=\"justify\">In this talk we will consider a converse task: we want to use persistent homology to detect as many geodesic circles in a space as possible. To that end we introduce a new construction of complexes called selective Rips complexes. They can be thought of as custom made complexes designed to detect geodesic circles. It turns out that employing selective Rips complexes we can detect and locate a fairly large class of geodesic circles using one- and two-dimensional persistent homology.</p>",
+        "season": "FALL 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "39": {
+        "speaker_id": 39,
+        "timestamp": {
+            "seconds": 1605852000,
+            "nanoseconds": 0
+        },
+        "date": "November 20, 2020",
+        "video": "https://www.youtube.com/embed/lpgcG4ZdmNc",
+        "title": "A landscape of knots: TDA and dimension reduction techniques in theoretical mathematics.",
+        "keywords": [
+            "knot theory",
+            "knot invariants",
+            "manifold learning",
+            "dimension reduction",
+            "topological data analysis (TDA)"
+        ],
+        "abstract": "<p align=\"justify\"> A multitude of knot invariants, including quantum invariants and their categorifications, have been introduced to aid with characterizing and classifying knots and their topological properties. Relations between knot invariants and their relative strengths at distinguishing knots are still mostly elusive. In addition to Ball Mapper, and machine learning techniques, we develop a new approach using filtrations to analyze infinite data sets where representative sampling is impossible or impractical, an essential requirement for working with knots and the data from knot invariants. Although of different origins, these methods confirm and illuminate similar substructures in knot data created for 10 million knots up to 17 crossings.</p>",
+        "season": "FALL 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "40": {
+        "speaker_id": 40,
+        "timestamp": {
+            "seconds": 1607061600,
+            "nanoseconds": 0
+        },
+        "date": "December 4, 2020",
+        "video": "https://www.youtube.com/embed/7cGPeMBWEwc",
+        "title": "Characterizing rare events in persistent homology.",
+        "keywords": [
+            "persistent homology",
+            "random topology",
+            "large deviation",
+            "representation theory"
+        ],
+        "abstract": "<p align=\"justify\"> Indecomposables obtained through decompositions of persistent homology are regarded as topological summary of real data. However, as is well known, there exist pathologically complicated indecomposables in multi-parameter persistent homology in purely algebraic setting, and this fact makes it difficult to build mathematical theory on that setting. Our fundamental question is, how much should we care about such complicated indecomposables in the real data, and what is a suitable framework to study this question? To this aim, we will show several ongoing results, especially, (1) large deviation principle on 1 parameter persistent homology, and (2) law of large numbers on multi-parameter persistent homology. Then we will discuss how these two results (partially) answer to the original question.</p>",
+        "season": "FALL 2020",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "41": {
+        "speaker_id": 41,
+        "timestamp": {
+            "seconds": 1611295200,
+            "nanoseconds": 0
+        },
+        "date": "January 22, 2021",
+        "video": "https://www.youtube.com/embed/E7J9IWqhwN4",
+        "title": "Low-dimensional topology and non-Euclidean geometry in nature.",
+        "keywords": [
+            "statistical topology",
+            "low-dimensional topology",
+            "unknotted long polymer chain",
+            "DNA folding",
+            "non-Euclidean geometry"
+        ],
+        "slides": "https://drive.google.com/file/d/1hBawfHTZBp8uuP1GIFn9naj7MowuFKzV/view",
+        "abstract": "<p>In the talk I demonstrate on specific examples the emergence of a new actively developing field, the \"statistical topology\", which unifies topology, noncommutative geometry, probability theory and random walks. In particular, I plan to discuss the following interlinked questions: (i) statistics of random walks on hyperbolic manifolds and graphs in connection with the topology and fractal structure of unknotted long polymer chain confined in a bounding box and hierarchical DNA folding, and (ii) optimal embedding in the three-dimensional space of exponentially growing tissues, like, for example, the salad leaf, and how the hierarchical ultrametric geometry emerges in that case.</p>",
+        "season": "SPRING 2021",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "42": {
+        "speaker_id": 42,
+        "timestamp": {
+            "seconds": 1612504800,
+            "nanoseconds": 0
+        },
+        "date": "February 5, 2021",
+        "video": "https://www.youtube.com/embed/ntwjBdEC_B4",
+        "title": "Predicting emergent sequences of neural networks via directional graphs",
+        "keywords": [
+            "Neuroscience",
+            "topological data analysis (TDA)",
+            "graph signal processing"
+        ],
+        "abstract": "<p>Sequences of neural activity arise in many brain areas, including cortex, hippocampus,and central pattern generator circuits that underlie rhythmic behaviors like locomotion. A fundamental question is to understand how the network’s connectivity shapes neuronal activity. Surprisingly, there is a correspondence between unstable fixed points and dynamic attractors. In this talk we will look into different network architectures and the fixed points they produce by decomposing the networks into “directional” components. This is joint work with C.Curto, F.Burtscher , S. Ebli, D.Egas, K.Morrison, N.Sanderson and Y.Zhou.</p>",
+        "warning": "Some noises in the video.",
+        "season": "SPRING 2021",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "43": {
+        "speaker_id": 43,
+        "timestamp": {
+            "seconds": 1613714400,
+            "nanoseconds": 0
+        },
+        "date": "February 19, 2021",
+        "video": "https://www.youtube.com/embed/mlQRgR7V898",
+        "title": "The magnitude of point-cloud data",
+        "keywords": [
+            "magnitude",
+            "point-cloud data",
+            "stability",
+            "persistent homology"
+        ],
+        "abstract": "<p>Magnitude is an isometric invariant of metric spaces that was introduced by Tom Leinster in 2010, and is currently the object of intense research, since it has been shown to encode many invariants of a metric space such as volume, dimension, and capacity.</p> <p>Magnitude homology is a homology theory for metric spaces that has been introduced by Hepworth-Willerton and Leinster-Shulman, and categorifies magnitude in a similar way as the singular homology of a topological space categorifies its Euler characteristic. </p> <p>In this talk I will first introduce magnitude and magnitude homology. I will then give an overview of existing results and current research in this area, explain how magnitude homology is related to persistent homology, and finally discuss new stability results for magnitude and how it can be used to study point-cloud data. </p> <p>This talk is based on joint work in progress with Miguel O'Malley and Sara Kalisnik, as well as the <a href = https://arxiv.org/abs/1807.01540>preprint</a>.</p>",
+        "season": "SPRING 2021",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "44": {
+        "speaker_id": 44,
+        "timestamp": {
+            "seconds": 1614924000,
+            "nanoseconds": 0
+        },
+        "date": "March 5, 2021",
+        "video": "https://www.youtube.com/embed/rDNUX9QGTyc",
+        "title": "Topologically Active Polymers and DNA",
+        "keywords": [
+            "DNA topology",
+            "Microrheology",
+            "Soft Matter",
+            "Living Polymers"
+        ],
+        "abstract": "<p>Polymer physics principles heavily rely on the assumption that polymers do not change topology (or architecture) in time. This is not the case for DNA, which is constantly topologically re-arranged within the cell nucleus. Inspired by this, I propose to study entangled systems of polymers which can selectively alter their topology and architecture in time and may expend energy to do so. I argue that solutions of these 'topologically active (living) polymers' can display unconventional viscoelastic behaviours and can be conveniently realised using solutions of DNA functionalised by certain families of proteins. </p> <p>In this talk I will present my first excursion into this field and present some recent results on the microrheology of entangled Lambda DNA undergoing digestion by restriction enzymes. Finally, I will discuss some wild conjectures and speculations about possible future directions.</p>",
+        "season": "SPRING 2021",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "45": {
+        "speaker_id": 45,
+        "timestamp": {
+            "seconds": 1616133600,
+            "nanoseconds": 0
+        },
+        "date": "March 19, 2021",
+        "video": "https://www.youtube.com/embed/RpQ2uW98tjo",
+        "title": "Pseudo-Seifert surfaces and vortex reconnections in quantum fluids",
+        "keywords": [
+            "quantum vortices",
+            "nodal lines",
+            "Schrödinger equation",
+            "Gross-Pitaievskii equation",
+            "approximation theorems"
+        ],
+        "abstract": "<p>The quantum vortices of a superfluid are described as nodal lines of a solution to the time-dependent Gross-Pitaevskii equation. Experiments in Lab and extensive numerical computations show that quantum vortices cross, each of them breaking into two parts and exchanging part of itself for part of the other. This phenomenon, known as quantum vortex reconnection, occurs even though the superfluid does not lose its smoothness. This usually leads to a change of topology of the quantum vortices. In this talk I will show that, given any initial and final congurations of quantum vortices (i.e. closed curves, possibly knotted and linked), and any way of transforming one into the other through a generic pseudo-Seifert surface embedded in spacetime, there is an initial condition whose associatedsolution realizes this specific vortex reconnection scenario. This allows us to track the vortex reconnection process at all times, both locally and globally. Key to prove this result is a new Runge-type approximation theorem for the linear Schrodinger equation.</p> <p>This is based on joint work with Alberto Enciso.</p>",
+        "warning": "In some moments of the talk, the sound is not clear.",
+        "season": "SPRING 2021",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "46": {
+        "speaker_id": 46,
+        "timestamp": {
+            "seconds": 1617944400,
+            "nanoseconds": 0
+        },
+        "date": "April 9, 2021",
+        "video": "https://www.youtube.com/embed/1epuaERO-os",
+        "title": "A toy model of the inertial range",
+        "keywords": [
+            "turbulence",
+            "inertial range",
+            "turbulent cascade"
+        ],
+        "abstract": "<p>In this talk we develop a simple toy model of the inertial range of turbulent flow, based upon a cascade of vortical filaments. The filaments are taken to be helical, one turn of the helix playing the role of a turbulent eddy. A binary branching structure is proposed, involving the splitting of filaments at each step into pairs of daughter filaments with differing properties, in effect two distinct simultaneous cascades. Neither of the cascades of this bimodal structure, in isolation, has the Richardson exponent of 1/3. If cascades are assumed to be initiated continuously and throughout space we obtain a model of the inertial range of stationary turbulence. We impose the constraint associated with Kolmogorov's four-fifths law and then adjust the splitting to achieve good agreement with the observed structure exponents <i>zeta<sub>p</sub></i>. The presence of two simultaneous cascades is responsible for the nonlinear dependence of <i>zeta<sub>p</sub></i> upon <i>p</i>. We also consider the initial value problem and study the flow of energy to small scales.</p><p>This is joint work with Andrew Gilbert.</p>",
+        "season": "SPRING 2021",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "47": {
+        "speaker_id": 47,
+        "timestamp": {
+            "seconds": 1619154000,
+            "nanoseconds": 0
+        },
+        "date": "April 23, 2021",
+        "video": "https://www.youtube.com/embed/GtSeDYRgdlE",
+        "title": "Knotoids and protein structure",
+        "keywords": [
+            "knotoids",
+            "proteins",
+            "topology",
+            "folding",
+            "knots"
+        ],
+        "abstract": "<p>Approximately 6% of proteins deposited in the Protein Data Bank are known to fold into conformations that are non-trivially entangled. The vast majority of knotted proteins form simple knot-like structures with up to three crossings. However, there are a few examples of proteins having up to six crossings. Interestingly, even though they are not ubiquitous, knots in proteins have been conserved within species that are separated by millions of years of evolution. This might imply that knottiness provides some advantages to proteins but this theory is still being contested. Besides the role of knotting in proteins, the pathway that the backbone of a knotted protein follows to reach its native folded state is still an open question. To this date, researchers have suggested several mechanisms for protein self-tying that are based on wet lab experiments, numerical simulations, mathematical theory or a combination of all the above.</p><p>In this talk, I will discuss how the theory of knotoids can be applied to characterize the topology of linear proteins. I will present the basics of the theory, some knotoids invariants, the computational pipeline that we developed for this, as well as our tabulation of knotoids. I will also present a statistical distance that we define on distributions of projections of a protein backbone seen as knotoids and I will show how this distance allows us to infer possible folding pathways of trefoil knotted proteins. I will close this talk by briefly discussing applications of knot theory to genomics. </p>",
+        "season": "SPRING 2021",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    },
+    "48": {
+        "speaker_id": 48,
+        "timestamp": {
+            "seconds": 1620363600,
+            "nanoseconds": 0
+        },
+        "date": "May 7, 2021",
+        "video": null,
+        "title": "Applying TDA on genomic and metagenomic data",
+        "keywords": [
+            "topological data analysis (TDA)",
+            "persistent homology",
+            "genomics",
+            "metagenomics"
+        ],
+        "abstract": "The field of computational biology aims to gain insights from biological data. In particular, from genomic and metagenomic data through tools that for some time now include geometric and topological methods. In this talk we will mention two applications of these tools in this setting: Using persistent homology to aid machine learning classifiers in a phenotype prediction task for Parkinson's disease, and to help identify organisms present in a metagenomic sample.",
+        "season": "SPRING 2021",
+        "numberViewsYoutube": 0,
+        "numberLikesYoutube": 0,
+        "numberDislikesYoutube": 0
+    }
+}
