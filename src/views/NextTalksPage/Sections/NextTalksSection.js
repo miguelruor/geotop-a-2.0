@@ -9,8 +9,8 @@ import GridContainer from "../../../components/Grid/GridContainer.js";
 import GridItem from "../../../components/Grid/GridItem.js";
 
 import styles from "../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
-import image1 from "../../../assets/img/images/speakers/sp047.png";
-import image2 from "../../../assets/img/images/speakers/sp048.png";
+import image1 from "../../../assets/img/images/speakers/sp048.png";
+import image2 from "../../../assets/img/images/speakers/sp049.png";
 
 const useStyles = makeStyles(styles);
 
@@ -20,9 +20,9 @@ export default function NextTalksSection(){
         {
             date: "May 21, 2021",
             speaker: "Caroline Uhler",
-            title: "TBA",
-            keywords: ["TBA"],
-            abstract: "<p>TBA</p>",
+            title: "Mathematics of Genome Packing and Regulation",
+            keywords: ["3D genome organization", "Euclidean distance geometry", "autoencoders", "over-parameterization"],
+            abstract: "<p>Recent evidence suggests that the spatial organization of the genome represents an important epigenetic regulator of expression, and alterations thereof are associated with various diseases. In this talk, I will analyze the link between the 3D genome organization and gene expression using geometric packing models and autoencoders/deep learning. In particular, I will first discuss the Euclidean distance geometry problem arising when studying the 3D genome organization and show that higher-order contacts are needed for its reconstruction. I will then discuss how autoencoders can be used to translate between DNA packing images and gene expression at the single-cell level as well as between different cell types. Given the empirical benefits of over-parameterization in autoencoders for these applications, I will end with a theoretical analysis of autoencoders linking over-parameterization to attractor properties. Understanding the geometry of these basins of attraction remains an important open problem. </p>",
         },
     ]);
 
@@ -62,7 +62,7 @@ export default function NextTalksSection(){
                 </GridContainer>
                     </GridItem>*/}
             <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-              {/*<div style={{textAlign: "center"}}><img src={image2} className={imageClasses}/></div>*/}
+              <div style={{textAlign: "center"}}><img src={image2} className={imageClasses}/></div>
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
                 <GridContainer>
