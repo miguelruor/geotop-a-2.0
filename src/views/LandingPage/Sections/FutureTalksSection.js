@@ -113,6 +113,11 @@ export default function FutureTalks(){
             date: "November 19",
             speaker: "Antonio Rieser",
             tittle: "CIMAT - Mexico"
+        }, 
+        {
+            date: "December 3",
+            speaker: "Jacob Leygonie,",
+            tittle: "University of Oxford - UK"
         },
         {
             date: "December 10",
