@@ -116,7 +116,7 @@ export default function FutureTalks(){
         }, 
         {
             date: "December 3",
-            speaker: "Jacob Leygonie,",
+            speaker: "Jacob Leygonie",
             tittle: "University of Oxford - UK"
         },
         {
