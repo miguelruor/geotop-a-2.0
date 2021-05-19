@@ -81,7 +81,7 @@ export default function FutureTalks(){
         },  
         {
             date: "September 3",
-            speaker: "Yasu Wang",
+            speaker: "Yusu Wang",
             tittle: "UC San Diego - USA"
         },
         {
