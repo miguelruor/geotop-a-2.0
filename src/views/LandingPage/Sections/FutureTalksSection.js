@@ -25,7 +25,7 @@ const useStyles = makeStyles(styles);
 export default function FutureTalks(){
     const classes = useStyles();
 
-    const [talks,setTalks] = useState([
+    const [talks3,setTalks3] = useState([
         {
             date: "January 22",
             speaker: "Sergei Nechaev",
@@ -73,7 +73,7 @@ export default function FutureTalks(){
         },
     ]);
 
-    const [talks2,setTalks2] = useState([
+    const [talks,setTalks] = useState([
         {
             date: "August 20",
             speaker: "Bei Wang",
@@ -126,7 +126,7 @@ export default function FutureTalks(){
         },
     ]);
 
-    const [talks3,setTalks3] = useState([
+    const [talks2,setTalks2] = useState([
         {
             date: "January 21",
             speaker: "Tudor Ratiu",
@@ -182,55 +182,6 @@ export default function FutureTalks(){
     return(
         <>
         <div className={classes.section} style={{paddingTop: 20}}>
-            <h1 className={classes.title}>SPRING 2021 TALKS</h1>
-            <div styles={{justifyContent: 'center'}}>
-               <GridContainer>
-                  <Hidden only="xs">
-                     <GridItem sm={3} md={2}>
-                        <h3 className={classes.subtitle}>DATE</h3>
-                     </GridItem>
-                  
-                     <GridItem xs={6} sm={3} md={2}>
-                        <h3 className={classes.subtitle}>SPEAKER</h3>
-                     </GridItem>
-                     <GridItem xs={6} sm={6} md={8}>
-                        <h3 className={classes.subtitle}>INSTITUTION</h3>
-                     </GridItem>
-                  </Hidden>
-                  {talks.map(talk => (
-                     <>
-                     <Hidden xsDown>
-                        <GridItem sm={3} md={2}>
-                              <p className={classes.nextTalks}>{talk.date}</p>
-                        </GridItem>
-                        <GridItem sm={3} md={2}>
-                              <p className={classes.nextTalks}>{talk.speaker}</p>
-                        </GridItem>
-                        <GridItem sm={6} md={8}>
-                              <p className={classes.nextTalks}>{talk.tittle}</p>
-                        </GridItem>
-                        <GridItem sm={12} md={12}>
-                           <Divider variant="fullWidth"/>
-                        </GridItem>
-                     </Hidden>
-                     {/* Seccion Movil */}
-                     <Hidden smUp>
-                        <GridItem xs={12} sm={3} md={2}>
-                              <p className={classes.nextTalks}><b>{talk.speaker}</b> - {talk.date}</p>
-                        </GridItem>
-                        <GridItem xs={12}>
-                              <p className={classes.nextTalks}>{talk.tittle}</p>
-                        </GridItem>
-                        <GridItem xs={12} sm={12} md={12}>
-                           <Divider variant="fullWidth"/>
-                        </GridItem>
-                     </Hidden>
-                     </>
-                  ))}
-               </GridContainer>
-            </div>
-        </div>
-        <div className={classes.section} style={{paddingTop: 20}}>
             <h1 className={classes.title}>FALL 2021 TALKS</h1>
             <div styles={{justifyContent: 'center'}}>
                 <GridContainer>
@@ -246,7 +197,7 @@ export default function FutureTalks(){
                         <h3 className={classes.subtitle}>INSTITUTION</h3>
                      </GridItem>
                   </Hidden>
-                    {talks2.map(talk => (
+                    {talks.map(talk => (
                         <>
                         <Hidden xsDown>
                            <GridItem sm={3} md={2}>
@@ -295,7 +246,7 @@ export default function FutureTalks(){
                         <h3 className={classes.subtitle}>INSTITUTION</h3>
                      </GridItem>
                   </Hidden>
-                  {talks3.map(talk => (
+                  {talks2.map(talk => (
                      <>
                      <Hidden xsDown>
                         <GridItem sm={3} md={2}>

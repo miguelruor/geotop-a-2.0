@@ -23,7 +23,6 @@ function renderCarouselImage(src) {
     <div style={{padding: "10px"}}>
       <img 
         src={src} 
-        alt="First slide" 
         className="slick-image" />
     </div>
     </>

@@ -18,11 +18,11 @@ export default function NextTalksSection(){
     
     const [talks2, setTalks2] = useState([
         {
-            date: "May 21, 2021",
-            speaker: "Caroline Uhler",
-            title: "Mathematics of Genome Packing and Regulation",
-            keywords: ["3D genome organization", "Euclidean distance geometry", "autoencoders", "over-parameterization"],
-            abstract: "<p>Recent evidence suggests that the spatial organization of the genome represents an important epigenetic regulator of expression, and alterations thereof are associated with various diseases. In this talk, I will analyze the link between the 3D genome organization and gene expression using geometric packing models and autoencoders/deep learning. In particular, I will first discuss the Euclidean distance geometry problem arising when studying the 3D genome organization and show that higher-order contacts are needed for its reconstruction. I will then discuss how autoencoders can be used to translate between DNA packing images and gene expression at the single-cell level as well as between different cell types. Given the empirical benefits of over-parameterization in autoencoders for these applications, I will end with a theoretical analysis of autoencoders linking over-parameterization to attractor properties. Understanding the geometry of these basins of attraction remains an important open problem. </p>",
+            date: "August 20, 2021",
+            speaker: "Bei Wang",
+            title: "TBA",
+            keywords: [],
+            abstract: "<p>TBA</p>",
         },
     ]);
 
@@ -62,7 +62,7 @@ export default function NextTalksSection(){
                 </GridContainer>
                     </GridItem>*/}
             <GridItem xs={12} sm={12} md={5} className={classes.nextTalk}>
-              <div style={{textAlign: "center"}}><img src={image2} className={imageClasses}/></div>
+              {/*<div style={{textAlign: "center"}}><img src={image2} className={imageClasses}/></div>*/}
             </GridItem>
             <GridItem xs={12} sm={12} md={7}>
                 <GridContainer>
@@ -72,7 +72,7 @@ export default function NextTalksSection(){
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{talk.date}</b></p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Title: "}</b>{talk.title}</p></GridItem>
                         <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Abstract: "}</b> {ReactHtmlParser (talk.abstract)}</p></GridItem>
-                        <GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {talk.keywords.join(", ")}</p></GridItem>
+                        {/*<GridItem xs={12} sm={12} md={12}><p className={classes.smallTitle}><b>{"Keywords: "}</b> {talk.keywords.join(", ")}</p></GridItem>*/}
                         </>
                     ))}
                 </GridContainer>
